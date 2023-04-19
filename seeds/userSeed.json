@@ -25,20 +25,20 @@
    },
    {
     "first_name": "Harold",
-    "last_name": "Smith",
-    "email": "anpch@example.com",
-    "password": "Hello123"
+    "last_name": "Joe",
+    "email": "joejoe@yahoo.com",
+    "password": "Joey777"
    },
    {
-    "first_name": "Michael",
-    "last_name": "Smith",
-    "email": "anpch@example.com",
-    "password": "Hello123"
+    "first_name": "Sami",
+    "last_name": "Watson",
+    "email": "samw@gmail.com",
+    "password": "Watty123"
    }, 
    {
-    "first_name": "Michael",
-    "last_name": "Smith",
-    "email": "anpch@example.com",
-    "password": "Hello123"
+    "first_name": "Lizzy",
+    "last_name": "Ahn",
+    "email": "Lizard@aol.com",
+    "password": "Girlypop123"
    }  
 ]
