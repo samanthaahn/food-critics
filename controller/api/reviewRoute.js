@@ -14,3 +14,20 @@ router.get('/dish/:dish_id', async (req, res) => {
     res.status(500).json(err);
   }
 });
+
+// POST a new review (withAuth middleware for authentication)
+router.post('/', withAuth, async (req, res) => {
+    try {
+      const newReview = await Review.create({
+        ...req.body,
+        user_id: req.session.user_id,
+      });
+  
+      res.status(200).json(newReview);
+    } catch (err) {
+      res.status(400).json(err);
+    }
+  });
+
+  
+  
