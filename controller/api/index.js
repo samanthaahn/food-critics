@@ -4,7 +4,7 @@ const dishRoutes = require('./dishRoutes');
 const reviewRoutes = require('./reviewRoutes');
 
 router.use('/user', userRoutes);
-router.use('/dishe', dishRoutes);
+router.use('/dish', dishRoutes);
 router.use('/review', reviewRoutes);
 
 module.exports = router;
