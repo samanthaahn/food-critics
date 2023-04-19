@@ -32,3 +32,5 @@ Dish.init(
     modelName: 'dish'
     }
 );
+
+module.exports = Dish;
