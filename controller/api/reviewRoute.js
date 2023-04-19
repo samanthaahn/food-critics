@@ -29,5 +29,26 @@ router.post('/', withAuth, async (req, res) => {
     }
   });
 
-  
+  // PUT to update a review by id (withAuth middleware for authentication)
+router.put('/:id', withAuth, async (req, res) => {
+  try {
+    const reviewData = await Review.update(req.body, {
+      where: {
+        id: req.params.id,
+        user_id: req.session.user_id,
+      },
+    });
+
+    if (!reviewData) {
+      res.status(404).json({ message: 'No review found with that id!' });
+      return;
+    }
+
+    res.status(200).json(reviewData);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+
   
