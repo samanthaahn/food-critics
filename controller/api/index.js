@@ -3,8 +3,8 @@ const userRoutes = require('./userRoutes');
 const dishRoutes = require('./dishRoutes');
 const reviewRoutes = require('./reviewRoutes');
 
-router.use('/users', userRoutes);
-router.use('/dishes', dishRoutes);
+router.use('/user', userRoutes);
+router.use('/dish', dishRoutes);
 router.use('/review', reviewRoutes);
 
 module.exports = router;
