@@ -1,17 +1,21 @@
 [
 {
-    "dish_name": "Burger",
-    "ingredients": [],
-    "recipe": "Fist start with a burger, then add the burger to the burger"
+    "dish_name": "Crispy-Shrimp Salad with Avocado Dressing",
+    "ingredients": ["raw shrimp", "black pepper", "kosher salt", "2 large eggs", "breadcrumbs", "extra-virgin olive oil", "fresh cilantro", "whole-milke green yogurt", "fresh lime juice", "1 avocado", "mixed baby greens", "egnlish cucumber", "2 medium radishes"],
+    "recipe": "STEP 1: Sprinkle shrimp evenly with pepper and 1/2 teaspoon of the salt. Place eggs in a shallow dish. Place panko in a separate shallow dish. Dredge shrimp in egg, shaking off excess. Dredge shrimp in panko, pressing to adhere. Heat 2 tablespoons oil in a large nonstick skillet over medium-high. Add shrimp; cook until opaque and crispy, 5 minutes, turning once halfway through cook time. Remove from pan; cover to keep warm. STEP 2: Process cilantro, 3 tablespoons water, yogurt, lime juice, 2 tablespoons oil, half of the avocado, and remaining 1/2 teaspoon salt in a food processor until smooth, about 15 seconds, stopping to scrape down sides as needed. STEP 3: Cut remaining avocado into cubes. Toss together mixed greens and remaining 2 tablespoons oil in a large bowl; transfer to a platter. Top with cucumber, radishes, avocado cubes, and shrimp. Drizzle with dressing."
 },
 {
-    "dish_name": "Burger",
-    "ingredients": [],
-    "recipe": "Fist start with a burger, then add the burger to the burger"
+    "dish_name": "Grilled Cajun Shrimp Kabobs with Saugsage",
+    "ingredients": ["raw shrimp", "smoked sausage", "sweet onion", "red bell pepper", "16 cherry tomatoes", "olive oil", "Cajun seasoning", "fresh thyme", "fresh oregano", "fresh flat-leaf parsely"],
+    "recipe": "STEP 1: Preheat grill to high (450°F to 500°F), or heat a grill pan over high. Combine shrimp, sausage, onion, bell pepper, tomatoes, olive oil, Cajun seasoning, thyme, and oregano in a large bowl, and toss to coat. Thread mixture onto 8 (10-inch) skewers, alternating ingredients.STEP 2: Place skewers on oiled grates, and grill, uncovered, until vegetables and sausage are lightly charred and shrimp is cooked through, about 2 minutes per side. Transfer skewers to a serving plate, and sprinkle with parsley."
 },
 {
-    "dish_name": "Burger",
-    "ingredients": [],
+    "dish_name": "Crispy Chicken-and-Broccoli Salad",
+    "ingredients": ["honey", "apple cider vinegar","Dijon mustard","kosher salt","black pepper","olive oil","broccoli florets","seedless grapes","sharp Cheddar cheese","sliced almonds", toasted
+    
+    1/2 cup thinly sliced red onion (from 1 small red onion)
+    
+    5 fried chicken tenders, coarsely chopped (about 4 cups)],
     "recipe": "Fist start with a burger, then add the burger to the burger"
 },
 {
