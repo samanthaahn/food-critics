@@ -4,11 +4,10 @@
     "description": "",
     "main": "server.js",
     "scripts": {
-
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js",
-      "watch": "nodemon server.js",
-      "seed": "node seeds/seed.js"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "watch": "nodemon server.js",
+        "seed": "node seeds/seed.js"
     },
     "keywords": [],
     "author": "",
@@ -19,7 +18,8 @@
         "express": "^4.18.2",
         "mysql": "^2.18.1",
         "mysql2": "^2.2.1",
-        "sequelize": "^6.31.0"
+        "sequelize": "^6.31.0",
+        "session": "^0.1.0"
     },
     "devDependencies": {
         "eslint": "^6.1.0",
