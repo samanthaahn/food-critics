@@ -13,6 +13,7 @@ nextBtn.addEventListener("click", goNextPage);
 
 // Business Logic
 let currentLocation = 1;
+// ! number of pages
 let numOfPapers = 3;
 let maxLocation = numOfPapers + 1;
 
@@ -51,7 +52,7 @@ function goNextPage() {
                 closeBook(false);
                 break;
             default:
-                throw new Error("unkown state");
+                throw new Error("unknown state");
         }
         currentLocation++;
     }

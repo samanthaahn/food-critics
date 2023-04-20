@@ -45,7 +45,7 @@ body {
 }
 
 .front {
-    z-index: 1;
+    z-index: 7;
     backface-visibility: hidden;
     border-left: 3px solid powderblue;
 }
@@ -98,13 +98,17 @@ i {
 
 /* Paper stack order */
 #p1 {
-    z-index: 3;
+    z-index: 10;
 }
 
 #p2 {
-    z-index: 2;
+    z-index: 9;
 }
 
 #p3 {
-    z-index: 1;
+    z-index: 8;
+}
+
+#p4 {
+    z-index: 7;
 }
