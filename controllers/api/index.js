@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const userRoutes = require('./userRoutes');
 const dishRoutes = require('./dishRoutes');
-const reviewRoutes = require('./reviewRoutes');
+const reviewRoutes = require('./reviewRoute');
 
 router.use('/user', userRoutes);
 router.use('/dish', dishRoutes);
