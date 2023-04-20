@@ -10,28 +10,24 @@ Review.init(
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
-      references: {
-        model: 'user',
-        key: 'id'
-      }
     },
     stars: {
       type: DataTypes.INTEGER,
-      allowNull: false
+      allowNull: false,
     },
     date: {
       type: DataTypes.DATE,
       allowNull: false,
       validate: {
-        isDate: true
-      }
+        isDate: true,
+      },
     },
     comment: {
       type: DataTypes.TEXT,
       allowNull: false,
       validate: {
-        len: [10]
-      }
+        len: [10],
+      },
     },
     user_id: {
       type: DataTypes.INTEGER,
@@ -53,7 +49,7 @@ Review.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'review'
+    modelName: 'review',
   }
 );
 
