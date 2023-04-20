@@ -13,12 +13,24 @@ const users = await User.bulkCreate(userData, {
     returning: true,
 });
 
+const dishes = [];
+
 for (const dish of dishData) {
-    await Dish.create({
+    const tempDish = await Dish.create({
         ...dish,
         user_id: users[Math.floor(Math.random() * users.length)].id,
     });
+    dishes.push(tempDish);
 }
+
+for (const review of reviewData) {
+    await Review.create({
+        ...review,
+        user_id: users[Math.floor(Math.random() * users.length)].id,
+        dish_id: dishes[Math.floor(Math.random() * dishes.length)].id,
+    });
+}
+
 process.exit(0);
 };
 
