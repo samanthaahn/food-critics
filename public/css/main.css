@@ -1,7 +1,34 @@
+:root {
+    --lightest: #B9FFFC;
+    --light: #A3D8F4;
+    --blue: #9AB3F5;
+    --dark: #7579E7;
+    --cover: #5F3100;
+    --paper: linear-gradient(90deg, #CEAF8C 0%, #D7C8B4 100%);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+nav {
+    position: absolute;
+    left: 0;
+    background: linear-gradient(270deg, var(--dark) 0%, var(--blue) 100%);
+    height: 100vh;
+    width: 18vw;
+    border-right: 2px solid black;
+}
+
+aside {
+    position: absolute;
+    right: 0;
+    background: linear-gradient(90deg, var(--dark) 0%, var(--blue) 100%);
+    height:100vh;
+    width: 18vw;
+    border-left: 2px solid black;
 }
 
 body {
@@ -9,9 +36,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
     font-family: sans-serif;
-    background-color: powderblue;
+    background: linear-gradient(0deg, var(--lightest) 0%, var(--blue) 100%);
 }
 
 /* Book */
@@ -34,7 +60,7 @@ body {
 
 .front,
 .back {
-    background-color: white;
+    background: var(--paper);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -42,12 +68,13 @@ body {
     left: 0;
     transform-origin: left;
     transition: transform 0.5s;
+    border: 2px solid black;
 }
 
 .front {
-    z-index: 7;
+    z-index: 1;
     backface-visibility: hidden;
-    border-left: 3px solid powderblue;
+    border-left: 2px solid black;
 }
 
 .back {
@@ -81,19 +108,23 @@ button {
     cursor: pointer;
     margin: 100px;
     transition: transform 0.5s;
+    border: 2px solid black;
+    border-radius: 2rem;
 }
 
 button:focus {
     outline: none;
+    
 }
 
 button:hover i {
-    color: #636363;
+    color: var(--blue);
 }
 
 i {
     font-size: 50px;
-    color: gray;
+    color: var(--dark);
+    
 }
 
 /* Paper stack order */
@@ -107,8 +138,4 @@ i {
 
 #p3 {
     z-index: 8;
-}
-
-#p4 {
-    z-index: 7;
 }
