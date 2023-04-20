@@ -26,91 +26,52 @@
 },
 {
     "dish_name": "Chicken Noodle Bowl with Peanut-Ginger Sauce",
-    "ingredients":"1/2 cup creamy peanut butter
-
-    4 1/2 tablespoons fresh lime juice
-    
-    3 tablespoons soy sauce
-    
-    3 tablespoons honey
-    
-    2 tablespoons peeled and chopped fresh ginger
-    
-    1 1/2 teaspoons sesame oil
-    
-    1/4 teaspoon crushed red pepper
-    
-    3 tablespoons rice vinegar
-    
-    1/4 teaspoon kosher salt
-    8 cups water
-
-2 tablespoons rice vinegar
-
-1 tablespoon kosher salt
-
-6 ounces rice noodles or bean threads
-
-3 cups shredded cooked chicken
-
-3 cups shredded napa cabbage
-
-1 1/2 cups halved and thinly sliced seedless cucumber
-
-1 1/2 cups matchstick carrots
-
-1 1/2 cups thinly sliced red bell pepper
-
-6 tablespoons chopped lightly salted dry-roasted peanuts",
-    "recipe": "Prepare the Sauce: Process all 9 ingredients in a blender or food processor until smooth.
-
-    Prepare the Chicken Noodle Bowl: Microwave water in a large bowl on HIGH 10 minutes. Stir vinegar and salt into boiling water. Add noodles and let stand until softened, about 5 minutes. Drain noodles.
-    
-    Divide noodles, chicken, cabbage, cucumber, carrots, and bell pepper among 6 bowls. Top each bowl with 1 tablespoon peanuts and 2 tablespoons Peanut-Ginger Sauce. Serve remaining sauce on the side."
+    "ingredients":"1/2 cup creamy peanut butter, 4 1/2 tablespoons fresh lime juice, 3 tablespoons soy sauce, 3 tablespoons honey, 2 tablespoons peeled and chopped fresh ginger, 1 1/2 teaspoons sesame oil,1/4 teaspoon crushed red pepper, 3 tablespoons rice vinegar, 1/4 teaspoon kosher salt, 8 cups water, 2 tablespoons rice vinegar, 1 tablespoon kosher salt, 6 ounces rice noodles or bean threads, 3 cups shredded cooked chicken, 3 cups shredded napa cabbage, 1 1/2 cups halved and thinly sliced seedless cucumber, 1 1/2 cups matchstick carrots, 1 1/2 cups thinly sliced red bell pepper, 6 tablespoons chopped lightly salted dry-roasted peanuts",
+    "recipe": "STEP 1: Prepare the Sauce: Process all 9 ingredients in a blender or food processor until smooth. STEP 2: Prepare the Chicken Noodle Bowl: Microwave water in a large bowl on HIGH 10 minutes. Stir vinegar and salt into boiling water. Add noodles and let stand until softened, about 5 minutes. Drain noodles. STEP 3: Divide noodles, chicken, cabbage, cucumber, carrots, and bell pepper among 6 bowls. Top each bowl with 1 tablespoon peanuts and 2 tablespoons Peanut-Ginger Sauce. Serve remaining sauce on the side."
 },
 {
-    "dish_name": "Burger",
-    "ingredients": ,
-    "recipe": "Fist start with a burger, then add the burger to the burger"
+    "dish_name": "Chicken-Bell Pepper Tacos",
+    "ingredients":"2 tablespoons olive oil, ½ cup finely chopped white onion, 5 fresh tomatillos, husks removed, rinsed, patted dry, and diced, 1 serrano chile, seeded and chopped, 2 small garlic cloves, minced, 2 cups chopped cooked chicken, 1 cup diced red bell pepper, 1 ½ teaspoons kosher salt, 1 teaspoon ground cumin, ½ teaspoon ancho chile powder, 1 tablespoon fresh lime juice, 8 (6-inch) corn tortillas, lightly charred, Toppings: Crumbled queso fresco and cilantro leaves",
+    "recipe": "STEP 1: Heat oil in a large skillet over medium-high. Add onion, tomatillos, serrano, and garlic. Cook, stirring often, 5 minutes.STEP 2: Stir in chicken, bell pepper, salt, cumin, and chile powder. Cook, stirring often, until bell pepper has softened and the chicken is warmed through, 5 minutes. Stir in lime juice. Serve in tortillas with toppings."
 },
 {
-    "dish_name": "Burger",
-    "ingredients": [],
-    "recipe": "Fist start with a burger, then add the burger to the burger"
+    "dish_name": "Sheet Pan Fajitas",
+    "ingredients": "1 tablespoon ground cumin, 1 tablespoon chili powder, 2 teaspoons paprika, 2 teaspoons kosher salt, 1 teaspoon black pepper, 1 ½ pounds boneless, skinless chicken breasts, cut crosswise into 1/2-in.-thick slices, 2 small (7 oz. each) bell peppers , thinly sliced (about 3 cups), 1 large (12 oz.) red onion, thinly sliced (about 2 cups), ¼ cup olive oil, 1 tablespoon fresh lime juice (from 1 lime), 8 (6-in.) flour tortillas, warmed according to pkg. directions, Optional toppings: Fresh cilantro leaves, lime wedges, sliced avocado, sour cream, and salsa",
+    "recipe": "STEP 1: Preheat oven to broil with rack about 6 inches from heat source. Stir together cumin, chili powder, paprika, salt, and black pepper in a small bowl. Line a rimmed baking sheet with aluminum foil. Toss together chicken, bell peppers, onion, oil, and cumin mixture on prepared baking sheet; spread in an even layer. STEP 2: Broil in preheated oven, undisturbed, until chicken is cooked through and vegetables are charred and beginning to soften, 10 to 12 minutes. Remove from oven; add lime juice to mixture, and stir to coat. Serve with warm tortillas and desired toppings."
 },
 {
-    "dish_name": "Burger",
-    "ingredients": [],
-    "recipe": "Fist start with a burger, then add the burger to the burger"
+    "dish_name": "Easy Beef and Broccoli Stir Fry Recipe",
+    "ingredients": "1 tablespoon canola oil, 1 pound ground chuck, 2 large heads broccoli, cut into florets, stems peeled and sliced (about 6 cups), 2 large garlic cloves, finely chopped (about 1 Tbsp.), 3 cups cold, cooked long-grain rice, 1 large (11-oz.) red bell pepper, sliced, 3 tablespoons lower-sodium soy sauce, 2 tablespoons rice wine vinegar, 1 tablespoon toasted sesame oil, 1 teaspoon light brown sugar, 4 scallions, thinly sliced (about 1/2 cup), 1 teaspoon kosher salt, 1/4 teaspoon crushed red pepper",
+    "recipe": " STEP 1: Heat oil in a large skillet over high. Add beef, and press into a thin layer covering bottom of skillet. Cook, stirring once, until browned, about 6 minutes. Add broccoli and garlic. Cook, stirring occasionally, until broccoli begins to soften, about 6 minutes. Add rice and bell pepper. Cook, stirring often, until heated through and beginning to brown, about 6 minutes. STEP 2: Stir together soy sauce, vinegar, sesame oil, and brown sugar in a small bowl. Pour soy mixture over rice mixture, stirring to combine. STEP 3: Remove from heat; sprinkle with scallions, salt, and crushed red pepper."
 },
 {
-    "dish_name": "Burger",
-    "ingredients": [],
-    "recipe": "Fist start with a burger, then add the burger to the burger"
+    "dish_name": "Chipotle Shrimp Tacos",
+    "ingredients": "1 lb. frozen cooked salad-size shrimp, thawed, 1 tsp. chipotle chile powder, ¼ tsp. garlic powder, 1 tsp. kosher salt, divided, 1 Tbsp. olive oil, 3 cups shredded coleslaw mix, ½ small (8-oz.) red onion, thinly sliced (about 1/2 cup), ⅓ cup chopped fresh cilantro, plus more for garnish, 3 Tbsp. fresh lime juice (from 2 limes), 3 Tbsp. mayonnaise, ½ tsp. granulated sugar, 8 (6 1/2-in.) flour tortillas, toasted, Lime wedges, for serving, Hot sauce, for serving ",
+    "recipe": "STEP 1: Pat shrimp dry with paper towels. Mix together shrimp, chipotle chile powder, garlic powder, and 1/2 teaspoon of the salt in a medium bowl until combined. STEP 2: Heat oil in a large nonstick skillet over medium-high. Add shrimp, and cook, stirring occasionally, until heated through, about 1 minute. STEP 3: Stir together coleslaw mix, red onion, cilantro, lime juice, mayonnaise, sugar, and remaining 1/2 teaspoon salt in a medium bowl. STEP 4: Top each toasted tortilla with about 1/2 cup coleslaw mixture and 1/3 cup cooked shrimp. Serve with lime wedges and hot sauce. Garnish with cilantro, if desired."
 },
 {
-    "dish_name": "Burger",
-    "ingredients": [],
-    "recipe": "Fist start with a burger, then add the burger to the burger"
+    "dish_name": "Green Chile-Chicken Soup",
+    "ingredients": "1 tablespoon olive or canola oil, 1 large poblano chile, seeded and chopped (about ½ cup), 1 cup chopped sweet onion (from 1 medium onion), 4 small garlic cloves, finely chopped (about 1 Tbsp.), 4 cups unsalted chicken broth, 2 (15½-oz.) cans white great Northern beans, drained and rinsed, 1 (15-oz.) can green enchilada sauce, 1 teaspoon kosher salt, 1 teaspoon ground cumin, ½ teaspoon ground coriander, 3 cups coarsely shredded, cooked chicken (about 1 rotisserie chicken), ¼ cup chopped fresh cilantro, plus more for garnish, Thinly sliced radishes, Sour cream",
+    "recipe": "STEP 1: Heat oil in a large Dutch oven over medium-high. Add poblano and sweet onion; cook, stirring occasionally, until tender, about 5 minutes. Add garlic; cook, stirring constantly, until fragrant, about 30 seconds. Stir in broth, beans, enchilada sauce, salt, cumin, and coriander. Bring to a simmer, and cook, stirring occasionally, about 5 minutes. Using back of spoon, gently mash beans. Stir in chicken; continue simmering until heated through, about 5 minutes. Stir in cilantro. Garnish with radishes, sour cream, and additional cilantro. Serve immediately. Freeze: Let cooked soup cool to room temperature, one hour. Place in an airtight, freezer-safe container. Or fill a ziplock plastic freezer bag no more than three-fourths of the way full, and seal, pushing out any air. Freeze until solid, at least four hours or up to six months. Reheat: Thaw overnight in refrigerator or at room temperature (one hour). Place soup in Dutch oven; heat over medium-high, stirring often, until hot, about 15 minutes. Garnish as desired."
 },
 {
-    "dish_name": "Burger",
-    "ingredients": [],
-    "recipe": "Fist start with a burger, then add the burger to the burger"
+    "dish_name": "Buttermilk Alfredo Chicken Spinach Pasta",
+    "ingredients": "8 ounces uncooked rigatoni pasta, 2 tablespoons unsalted butter, 1/4 cup all-purpose flour, 1 1/2 cups whole milk, 1/2 cup whole buttermilk, 3/4 teaspoon kosher salt, 1/2 teaspoon black pepper, 4 ounces Parmesan cheese, finely shredded (about 1 1/2 cups), divided, 1 (5-oz.) pkg. fresh baby spinach, 4 cups shredded rotisserie chicken",
+    "recipe": "STEP 1: Cook pasta in a large pot of boiling salted water to cover according to package directions. Drain and set aside. STEP 2: Melt butter in a large skillet over medium. Whisk in flour until smooth. Cook, whisking constantly, 1 minute. Slowly whisk in milk. Cook, whisking constantly, until mixture is thickened and bubbly, 3 to 4 minutes. Remove from heat. STEP 3: Whisk buttermilk, salt, pepper, and 1 cup of the cheese into flour mixture, whisking until cheese is melted. Stir in spinach, 1 cup at a time, stirring until wilted before the next addition. Add chicken and pasta; stir until coated and warmed through. Sprinkle with remaining 1/2 cup cheese."
 },
 {
-    "dish_name": "Burger",
-    "ingredients": [],
-    "recipe": "Fist start with a burger, then add the burger to the burger"
+    "dish_name": "Chicken Salad-Stuffed Tomatoes",
+    "ingredients": "6 beefsteak tomatoes, (1/2 to 3/4 lb. each), 4 cups chopped rotisserie chicken, 1 1/2 cups chopped tricolor bell pepper mix (from 1 [8-oz.] container), 3/4 cup mayonnaise, 2 tablespoons fresh lemon juice (from 1 lemon), 1 teaspoon kosher salt, 1/2 teaspoon black pepper",
+    "recipe": "STEP 1: Remove and discard tops of tomatoes; then core and seed them. STEP 2: Stir together next 6 ingredients in a bowl until combined. Spoon about 1/2 cup mixture into each cored tomato. (Cover and refrigerate leftover chicken salad up to 5 days.)"
 },
 {
-    "dish_name": "Burger",
-    "ingredients": [],
-    "recipe": "Fist start with a burger, then add the burger to the burger"
+    "dish_name": "Chicken Stir-Fry",
+    "ingredients": "1 (14-oz.) can low-sodium chicken broth, 1/4 cup lite soy sauce, 1 to 2 tbsp. chili-garlic sauce, 2 tablespoons cornstarch, 1 tablespoon brown sugar, 1 teaspoon ground ginger, 2 tablespoons dark sesame oil, 3 cups shredded rotisserie chicken, 1 (16-oz.) package frozen stir-fry vegetables, Steamed rice",
+    "recipe": "Whisk together chicken broth, soy sauce, chili-garlic sauce, cornstarch, brown sugar, and ground ginger. Heat sesame oil in a large skillet or wok over medium-high heat 2 minutes. Add chicken and vegetables; stir-fry 1 to 2 minutes. Add broth mixture, and cook until sauce thickens and vegetables are tender. Serve with steamed rice."
 },
 {
-    "dish_name": "Burger",
-    "ingredients": [],
-    "recipe": "Fist start with a burger, then add the burger to the burger"
+    "dish_name": "Mediterranean Shrimp and Couscous Salad",
+    "ingredients": "2 cups uncooked Israeli couscous, 1 tsp. grated lemon zest plus 3 Tbsp. fresh lemon juice (from 1 large lemon), 1 small garlic clove, grated, ¼ tsp. black pepper, ¼ cup, plus 1 Tbsp. extra-virgin olive oil, divided, 1 ¾ tsp. kosher salt, divided, 1 lb. large shrimp, peeled and deveined, 1 tsp. smoked paprika, 1 cup loosely packed fresh parsley leaves, chopped, plus more for garnish , ¼ cup chopped fresh dill, plus more for garnish, 4 oz. feta cheese, crumbled (about 1 cup)",
+    "recipe": "STEP 1: Bring a medium saucepan of salted water to a boil over high. Add couscous, and cook, stirring occasionally, until tender, 5 to 7 minutes. Drain couscous, and rinse with cool water. STEP 2: Stir together lemon zest and juice, garlic, pepper, 1/4 cup of the oil, and 1 1/4 teaspoons of the salt in a large bowl. Stir into cooked couscous; set aside. STEP 3: Pat shrimp dry with paper towels. Sprinkle shrimp with paprika and remaining 1/2 teaspoon salt. Thread shrimp onto skewers. Preheat grill to high (450°F to 500°F). Drizzle shrimp with remaining 1 tablespoon oil, and place shrimp skewers on oiled grates; grill, covered, until charred and cooked through, 1 to 2 minutes per side. STEP 4: Stir parsley and dill into couscous mixture. Remove skewers from shrimp, and arrange shrimp over couscous. Top with feta cheese. Garnish with additional parsley and dill, if desired."
 }
 ]
