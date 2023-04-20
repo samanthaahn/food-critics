@@ -61,7 +61,7 @@ router.post('/logout', (req, res) => {
 // Get user by ID (withAuth middleware for authentication)
 router.get('/:id', withAuth, async (req, res) => {
   try {
-    const userData = await User.findByPk(req.params.id);
+    const userData = await User.findByPk(req.session.id);
 
     if (!userData) {
       res.status(404).json({ message: 'No user found with that id!' });
