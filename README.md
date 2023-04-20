@@ -32,7 +32,7 @@ In order to use this application, you must login to access all the dish informat
 ## Contributing
 All dishes were taken from Southern Living which can be found here: https://www.southernliving.com/food/dinner/20-minute-dinner-ideas
 
-A huge thank you to Bryan our professor and Shawn our TA for always helping us. Also a big thank you to Alexis San Javior my tutor for always supporting me! 
+A huge thank you to Bryan our professor and Shawn our TA for always helping us! 
 
 ## Tests
 N/A
