@@ -1,62 +1,76 @@
 [
 {
     "dish_name": "Crispy-Shrimp Salad with Avocado Dressing",
-    "ingredients": "raw shrimp, black pepper, kosher salt,2 large eggs, breadcrumbs, extra-virgin olive oil, fresh cilantro, whole-milke green yogurt, fresh lime juice, 1 avocado, mixed baby greens, egnlish cucumber, 2 medium radishes",
+    "ingredients": "1 pound large peeled, deveined raw shrimp, 1/2 teaspoon black pepper, 1 teaspoon kosher salt, divided, 2 large eggs, beaten, 1/2 cup panko breadcrumbs, 6 tablespoons extra-virgin olive oil, divided, 1/4 cup packed fresh cilantro leaves, 2 tablespoons plain whole-milk Greek yogurt, 2 tablespoons fresh lime juice (from 1 lime), 1 large avocado, pitted and halved, divided, 1 (5-oz.) pkg. mixed baby greens, 1 cup sliced English cucumber (from 1 [5-oz.] cucumber), 2 medium radishes, thinly sliced",
     "recipe": "STEP 1: Sprinkle shrimp evenly with pepper and 1/2 teaspoon of the salt. Place eggs in a shallow dish. Place panko in a separate shallow dish. Dredge shrimp in egg, shaking off excess. Dredge shrimp in panko, pressing to adhere. Heat 2 tablespoons oil in a large nonstick skillet over medium-high. Add shrimp; cook until opaque and crispy, 5 minutes, turning once halfway through cook time. Remove from pan; cover to keep warm. STEP 2: Process cilantro, 3 tablespoons water, yogurt, lime juice, 2 tablespoons oil, half of the avocado, and remaining 1/2 teaspoon salt in a food processor until smooth, about 15 seconds, stopping to scrape down sides as needed. STEP 3: Cut remaining avocado into cubes. Toss together mixed greens and remaining 2 tablespoons oil in a large bowl; transfer to a platter. Top with cucumber, radishes, avocado cubes, and shrimp. Drizzle with dressing."
 },
 {
     "dish_name": "Grilled Cajun Shrimp Kabobs with Saugsage",
-    "ingredients": "raw shrimp, smoked sausage, sweet onion, red bell pepper, 16 cherry tomatoes, olive oil, Cajun seasoning, fresh thyme, fresh oregano, fresh flat-leaf parsely",
+    "ingredients": "8 ounces large peeled, deveined raw shrimp (about 16), 6 ounces smoked sausage (such as Conecuh), cut into 1/2-inch rounds (about 1 cup), 1 small sweet onion, cut into 1-inch pieces (about 1 cup), 1 small red bell pepper, cut into 1-inch pieces (about 3/4 cup), 16 cherry tomatoes (about 1/2 pint), 3 tablespoons olive oil, 2 teaspoons Cajun seasoning (such as Slap Ya Mama), 1 teaspoon chopped fresh thyme, 1/2 teaspoon chopped fresh oregano, 2 tablespoons chopped fresh flat-leaf parsley",
     "recipe": "STEP 1: Preheat grill to high (450°F to 500°F), or heat a grill pan over high. Combine shrimp, sausage, onion, bell pepper, tomatoes, olive oil, Cajun seasoning, thyme, and oregano in a large bowl, and toss to coat. Thread mixture onto 8 (10-inch) skewers, alternating ingredients.STEP 2: Place skewers on oiled grates, and grill, uncovered, until vegetables and sausage are lightly charred and shrimp is cooked through, about 2 minutes per side. Transfer skewers to a serving plate, and sprinkle with parsley."
 },
 {
     "dish_name": "Crispy Chicken-and-Broccoli Salad",
-    "ingredients": "honey, apple cider vinegar, Dijon mustard,kosher salt, black pepper, olive oil, broccoli florets,seedless grapes ,sharp Cheddar cheese, sliced almonds,sliced red onion, 5 fried chicken tenders",
+    "ingredients": "2 tablespoons honeY, 2 tablespoons apple cider vinegar, 1 tablespoon Dijon mustard, 1 teaspoon kosher salt, 1/2 teaspoon black pepper, 2/3 cup olive oil, 5 cups broccoli florets, 1 1/2 cups seedless grapes, halved, 4 ounces sharp Cheddar cheese, grated (about 1 cup), 3/4 cup sliced almonds, toasted, 1/2 cup thinly sliced red onion (from 1 small red onion), 5 fried chicken tenders, coarsely chopped (about 4 cups)",
     "recipe": "STEP 1: Whisk together honey, vinegar, mustard, salt, and pepper in a large bowl until blended and smooth. Drizzle in oil, whisking until emulsified, 30 seconds. Stir in broccoli, grapes, cheese, almonds, and onion. Cover; chill at least 2 hours or up to overnight. Stir in chicken before serving."
 },
 {
-    "dish_name": "Burger",
-    "ingredients": [],
-    "recipe": "Fist start with a burger, then add the burger to the burger"
+    "dish_name": "Burrito Bowls Recipe",
+    "ingredients": "1 (15-oz.) can unsalted black beans, drained and rinsed, ¼ cup water, ½ teaspoon chili powder, ¼ teaspoon ground cumin, ½ teaspoon kosher salt, divided, 1 tablespoon olive oil, 1 cup fresh corn kernels (from 2 ears), 1 tablespoon fresh lime juice (from 1 lime), divided, 1 (8.8-oz.) pouch microwavable brown rice, ¼ cup chopped fresh cilantro, divided, 4 cups finely chopped romaine lettuce hearts (from about 1 heart), 4 ounces queso blanco, crumbled (about 1 cup), 2 ripe avocados, sliced, ½ cup pico de gallo, 4 tablespoons light sour cream",
+    "recipe": "STEP 1: Combine beans, water, chili powder, cumin, and ¼ teaspoon of the salt in a small saucepan, and cook over medium until beans are hot, about 3 to 4 minutes. Remove from heat, and cover to keep warm. STEP 2: Heat oil in a medium-size cast-iron skillet over medium-high. Add corn, and cook, stirring occasionally, until slightly charred, about 5 minutes. Sprinkle with 1 ½ teaspoons of the lime juice and remaining ¼ teaspoon salt. Set aside.STEP 3: Cook brown rice according to package instructions, and transfer to a medium bowl. Stir in 2 tablespoons of the cilantro and remaining 1 ½ teaspoons lime juice. STEP 4: Divide warm beans, corn, rice, lettuce, cheese, and avocado among 4 bowls. Top with pico de gallo, sour cream, and remaining 2 tablespoons cilantro."
+},
+{
+    "dish_name": "Shrimp Salad Rolls",
+    "ingredients":"1 ½ lb. large shrimp, peeled and deveined, 2 celery stalks (4 3/4 oz.), finely chopped (1 cup), ⅓ cup mayonnaise, 2 Tbsp. chopped fresh chives, plus more for garnish, 2 Tbsp. chopped fresh dill, 1 Tbsp. Dijon mustard, 1 Tbsp. fresh lemon juice (from 1 lemon), 1 tsp. Old Bay seasoning, ½ tsp. kosher salt, 2 Tbsp. salted butter, softened, 6 potato hot dog buns, split and toasted, Bibb or Boston lettuce leaves, for serving ",
+    "recipe": "STEP 1: Cook shrimp in a large pot of boiling salted water until cooked through, about 2 minutes. Drain and rinse with cold water until cool to the touch. Pat dry, and chop into bite-size pieces. STEP 2: Stir together celery, mayonnaise, chives, dill, mustard, lemon juice, Old Bay seasoning, and salt until combined. Fold in chopped shrimp. STEP 3: Spread butter on toasted buns; top with lettuce, and fill with shrimp mixture. Garnish with additional chives, if desired."
+},
+{
+    "dish_name": "Chicken Noodle Bowl with Peanut-Ginger Sauce",
+    "ingredients":"1/2 cup creamy peanut butter
+
+    4 1/2 tablespoons fresh lime juice
+    
+    3 tablespoons soy sauce
+    
+    3 tablespoons honey
+    
+    2 tablespoons peeled and chopped fresh ginger
+    
+    1 1/2 teaspoons sesame oil
+    
+    1/4 teaspoon crushed red pepper
+    
+    3 tablespoons rice vinegar
+    
+    1/4 teaspoon kosher salt
+    8 cups water
+
+2 tablespoons rice vinegar
+
+1 tablespoon kosher salt
+
+6 ounces rice noodles or bean threads
+
+3 cups shredded cooked chicken
+
+3 cups shredded napa cabbage
+
+1 1/2 cups halved and thinly sliced seedless cucumber
+
+1 1/2 cups matchstick carrots
+
+1 1/2 cups thinly sliced red bell pepper
+
+6 tablespoons chopped lightly salted dry-roasted peanuts",
+    "recipe": "Prepare the Sauce: Process all 9 ingredients in a blender or food processor until smooth.
+
+    Prepare the Chicken Noodle Bowl: Microwave water in a large bowl on HIGH 10 minutes. Stir vinegar and salt into boiling water. Add noodles and let stand until softened, about 5 minutes. Drain noodles.
+    
+    Divide noodles, chicken, cabbage, cucumber, carrots, and bell pepper among 6 bowls. Top each bowl with 1 tablespoon peanuts and 2 tablespoons Peanut-Ginger Sauce. Serve remaining sauce on the side."
 },
 {
     "dish_name": "Burger",
-    "ingredients": [],
-    "recipe": "Fist start with a burger, then add the burger to the burger"
-},
-{
-    "dish_name": "Burger",
-    "ingredients": [],
-    "recipe": "Fist start with a burger, then add the burger to the burger"
-},
-{
-    "dish_name": "Burger",
-    "ingredients": [],
-    "recipe": "Fist start with a burger, then add the burger to the burger"
-},
-{
-    "dish_name": "Burger",
-    "ingredients": [],
-    "recipe": "Fist start with a burger, then add the burger to the burger"
-},
-{
-    "dish_name": "Burger",
-    "ingredients": [],
-    "recipe": "Fist start with a burger, then add the burger to the burger"
-},
-{
-    "dish_name": "Burger",
-    "ingredients": [],
-    "recipe": "Fist start with a burger, then add the burger to the burger"
-},
-{
-    "dish_name": "Burger",
-    "ingredients": [],
-    "recipe": "Fist start with a burger, then add the burger to the burger"
-},
-{
-    "dish_name": "Burger",
-    "ingredients": [],
+    "ingredients": ,
     "recipe": "Fist start with a burger, then add the burger to the burger"
 },
 {
