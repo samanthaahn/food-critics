@@ -4,12 +4,27 @@
     box-sizing: border-box;
 }
 
+nav {
+    position: absolute;
+    left: 0;
+    background-color: purple;
+    height: 100vh;
+    width: 18vw;
+}
+
+aside {
+    position: absolute;
+    right: 0;
+    background-color: purple;
+    height:100vh;
+    width: 18vw;
+}
+
 body {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
     font-family: sans-serif;
     background-color: powderblue;
 }
@@ -45,7 +60,7 @@ body {
 }
 
 .front {
-    z-index: 7;
+    z-index: 1;
     backface-visibility: hidden;
     border-left: 3px solid powderblue;
 }
