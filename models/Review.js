@@ -33,6 +33,24 @@ comment: {
         len: [10]
     }
 }
+
+user_id:{
+    type: DataTypes.INTEGER,
+    references:{
+        model:'user',
+        key: 'id',
+    },
+},
+
+dish_id: {
+    type: DataTypes.INTEGER,
+    references: {
+      model: 'dish',
+      key: 'id',
+    },
+
+},
+
 },
 {
     sequelize,
