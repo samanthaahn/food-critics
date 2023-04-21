@@ -21,10 +21,6 @@ nav {
     border-right: 2px solid black;
 }
 
-.loginbar {
-    display: flex;
-}
-
 aside {
     position: absolute;
     right: 0;
