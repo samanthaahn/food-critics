@@ -9,15 +9,19 @@
 </head>
 
 <body>
-    <h1>Reviews for {{dish}}</h1>
-    {{review}}
-    
-    <ul>
-        <li>{{review}}</li>
-        <li>{{review}}</li>
-        <li>{{review}}</li>
-        <li>{{review}}</li>
-    </ul>
+    <h1>{{dish_name}}</h1>
+    <div>{{ingredients}}</div>
+    <div>{{recipe}}</div>
+
+    <h1>Reviews for {{dish_name}}</h1>
+    <div>
+    {{#each reivews as |review|}}  
+        <div>{{stars}}</div>
+        <div>{{comment}}</div>
+        <div>{{user.username}} on {{date}}</div>
+        
+    {{/each}}
+    </div>
     
 <aside class="">
     <h1>{{Title of Review}}</h1>

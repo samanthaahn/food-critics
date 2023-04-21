@@ -1,44 +1,37 @@
 [
    {
-    "first_name": "Michael",
-    "last_name": "Smith",
+    "username": "Michael Smith",
     "email": "anpch@example.com",
     "password": "Hello123"
    },
    {
-    "first_name": "Sara",
-    "last_name": "Johnson",
+    "username": "Sara Johnson",
     "email": "sjohnson@aol.com",
     "password": "Guppie123"
    },
    {
-    "first_name": "Kendall",
-    "last_name": "Jenner",
+    "username": "Kendall Jenner",
     "email": "k.jennerh@hotmail.com",
     "password": "IAmHot123"
    },
    {
-    "first_name": "Kristina",
-    "last_name": "Ahn",
+    "username": "Kristina Ahn",
     "email": "kriskris@gmail.com",
     "password": "Sophia123"
    },
    {
-    "first_name": "Harold",
-    "last_name": "Joe",
+    "username": "Harold Joe",
     "email": "joejoe@yahoo.com",
     "password": "Joey777"
    },
    {
-    "first_name": "Sami",
-    "last_name": "Watson",
+    "username": "Sami Watson",
     "email": "samw@gmail.com",
     "password": "Watty123"
-   }, 
+   },
    {
-    "first_name": "Lizzy",
-    "last_name": "Ahn",
+    "username": "Lizzy Ahn",
     "email": "Lizard@aol.com",
     "password": "Girlypop123"
-   }  
+   }
 ]
