@@ -11,6 +11,12 @@ const paper3 = document.querySelector("#p3");
 prevBtn.addEventListener("click", goPrevPage);
 nextBtn.addEventListener("click", goNextPage);
 
+// Add event listener for login link
+document.getElementById('login-link').addEventListener('click', (e) => {
+  e.preventDefault();
+  window.location.href = '/login';
+});
+
 // Business Logic
 let currentLocation = 1;
 // ! number of pages

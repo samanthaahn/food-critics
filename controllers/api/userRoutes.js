@@ -1,16 +1,14 @@
 const router = require('express').Router();
 const { User } = require('../../models');
-const withAuth = require('../../utils/auth');
 
-// User registration ..route will be accessible at /api/user/register
+// Register route
 router.post('/register', async (req, res) => {
   try {
     const userData = await User.create(req.body);
 
     req.session.save(() => {
-      req.session.user_id = userData.id;
-      req.session.logged_in = true;
-
+      req.session.userId = userData.id;
+      req.session.loggedIn = true;
       res.status(200).json(userData);
     });
   } catch (err) {
@@ -18,59 +16,41 @@ router.post('/register', async (req, res) => {
   }
 });
 
-// User login  ..route will be accessible at /api/user/login
+// Login route
 router.post('/login', async (req, res) => {
   try {
-    const userData = await User.findOne({ where: { email: req.body.email } });
+    const userData = await User.findOne({ where: { username: req.body.username } });
 
     if (!userData) {
-      res.status(400).json({ message: 'Incorrect email or password, please try again' });
+      res.status(400).json({ message: 'Incorrect username or password' });
       return;
     }
 
     const validPassword = await userData.checkPassword(req.body.password);
 
     if (!validPassword) {
-      res.status(400).json({ message: 'Incorrect email or password, please try again' });
+      res.status(400).json({ message: 'Incorrect username or password' });
       return;
     }
 
     req.session.save(() => {
-      req.session.user_id = userData.id;
-      req.session.logged_in = true;
-
+      req.session.userId = userData.id;
+      req.session.loggedIn = true;
       res.status(200).json({ user: userData, message: 'You are now logged in!' });
     });
-
   } catch (err) {
     res.status(400).json(err);
   }
 });
 
-// User logout ..route will be accessible at /api/user/logout
+// Logout route
 router.post('/logout', (req, res) => {
-  if (req.session.logged_in) {
+  if (req.session.loggedIn) {
     req.session.destroy(() => {
       res.status(204).end();
     });
   } else {
     res.status(404).end();
-  }
-});
-
-// Get user by ID (withAuth middleware for authentication)
-router.get('/:id', withAuth, async (req, res) => {
-  try {
-    const userData = await User.findByPk(req.session.id);
-
-    if (!userData) {
-      res.status(404).json({ message: 'No user found with that id!' });
-      return;
-    }
-
-    res.status(200).json(userData);
-  } catch (err) {
-    res.status(500).json(err);
   }
 });
 
