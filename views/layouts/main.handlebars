@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../public/css/main.css">
-    <script src="../../public/js/main.js" defer></script>
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/main.js" defer></script>
     <script src="https://kit.fontawesome.com/3c42d1678b.js" crossorigin="anonymous"></script>
     <title>Flipbook</title>
 </head>
 
 
-
 <body>
     <!-- left nav bar -->
+      <!-- left nav bar -->
     <nav>
-        <h1>Login</h1>
+        {{#if loggedIn}}
+            <form id="logout-form" action="/logout" method="POST">
+                <button id="logout" class="btn-no-style">Logout</button>
+            </form>
+        {{else}}
+            <a href="/login">Login</a>
+        {{/if}}
     </nav>
-
+{{!-- {{{body}}} --}}
     <!-- right input bar -->
     <aside>
-        
+ 
     </aside>
 
     <!-- Previous Button -->
@@ -35,12 +41,12 @@
         <div id="p1" class="paper">
             <div class="front">
                 <div id="f1" class="front-content">
-                    <h1>Cover</h1>
+                    <h1>The Third Michelin</h1>
                 </div>
             </div>
             <div class="back">
                 <div id="b1" class="back-content">
-                    <h1>Back 1</h1>
+                    <h1>Salads</h1>
                 </div>
             </div>
         </div>
@@ -48,12 +54,12 @@
         <div id="p2" class="paper">
             <div class="front">
                 <div id="f2" class="front-content">
-                    <h1>Front 2</h1>
+                    <h1>Appetizers</h1>
                 </div>
             </div>
             <div class="back">
                 <div id="b2" class="back-content">
-                    <h1>Back 2</h1>
+                    <h1>Bowls</h1>
                 </div>
             </div>
         </div>
@@ -61,12 +67,12 @@
         <div id="p3" class="paper">
             <div class="front">
                 <div id="f3" class="front-content">
-                    <h1>Front 3</h1>
+                    <h1>Tacos & Fajitas</h1>
                 </div>
             </div>
             <div class="back">
                 <div id="b3" class="back-content">
-                    <h1>Back 3</h1>
+                    <h1>Desserts</h1>
                 </div>
             </div>
         </div>
@@ -76,5 +82,9 @@
     <button id="next-btn">
         <i class="fas fa-arrow-circle-right"></i>
     </button>
+
+      {{!-- {{#if loggedIn}}
+  <script src="/js/logout.js"></script>
+  {{/if}} --}}
 </body>
 </html>

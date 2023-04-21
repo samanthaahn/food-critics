@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Dish, User, Review } = require('../../models');
+const { Dish, User,} = require('../../models');
 const withAuth = require('../../utils/auth');
 
 // GET all dishes
