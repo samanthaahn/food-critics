@@ -4,24 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../public/css/review.css">
+    <link rel="stylesheet" href="../public/css/dish.css">
     <title>Document</title>
 </head>
 
 <body>
+<div class="dish">
     <h1>{{dish_name}}</h1>
     <div>{{ingredients}}</div>
     <div>{{recipe}}</div>
+</div>
 
+<div class="reviews">
     <h1>Reviews for {{dish_name}}</h1>
     <div>
     {{#each reivews as |review|}}  
-        <div>{{stars}}</div>
+        <div class="stars-inner"></div>
+        <div class="stars-inner"></div>
         <div>{{comment}}</div>
         <div>{{user.username}} on {{date}}</div>
         
     {{/each}}
     </div>
+</div>
+
+const starsTotal = 5; 
+
+//run get 
+document.addEventLIstener('DOMContentLoaded', getRatings)
+// get ratings
+function getRatings() {
+    console.log('ran');
+}
     
 <aside class="">
     <h1>{{Title of Review}}</h1>
