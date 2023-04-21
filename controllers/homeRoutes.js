@@ -5,8 +5,21 @@ const withAuth = require('../utils/auth');
 
 // Render the homepage
 router.get('/', async (req, res) => {
+  const saladData = await Dish.findAll({
+    where: {
+      type: "salad"
+    }
+  })
+  const salads = saladData.map(salad => salad.get({ plain: true }))
+
+
+
+
+
+
     res.render('homepage', {
-      loggedIn: req.session.loggedIn,
+      loggedIn: req.session.loggedIn, 
+      salads
     });
   });
   

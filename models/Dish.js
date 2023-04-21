@@ -22,6 +22,10 @@ Dish.init(
         recipe: {
             type: DataTypes.TEXT,
             allowNull: false
+        },
+        type: {
+            type: DataTypes.STRING,
+            allowNull: false,
         }
     },
     {

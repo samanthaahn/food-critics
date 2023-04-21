@@ -17,6 +17,11 @@
     <div class="back">
       <div id="b1" class="back-content">
         <h1>Salads</h1>
+        <ul class="salad-list">
+          {{#each salads as |salad|}}
+          <li><a href="/dish/{{salad.id}}">{{salad.dish_name}}</a></li>
+          {{/each}}
+        </ul>
       </div>
     </div>
   </div>
