@@ -1,0 +1,13 @@
+    <h1>{{dish_name}}</h1>
+    <div>{{ingredients}}</div>
+    <div>{{recipe}}</div>
+
+    <h1>Reviews for {{dish_name}}</h1>
+    <div>
+    {{#each reviews as |review|}}  
+        <div>{{stars}}</div>
+        <div>{{comment}}</div>
+        <div>{{user.username}} on {{date}}</div>
+        
+    {{/each}}
+    </div>
