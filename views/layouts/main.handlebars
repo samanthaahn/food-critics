@@ -15,7 +15,6 @@
 <body>
     <!-- left nav bar -->
     <nav>
-        <div class="loginbar">
         {{#if loggedIn}}
         <form id="logout-form" action="/logout" method="POST">
             <button id="logout" class="btn-no-style">Logout</button>
@@ -23,7 +22,6 @@
         {{else}}
         <a href="/login">Login</a>
         {{/if}}
-        </div>
     </nav>
 
     <!-- right input bar -->
