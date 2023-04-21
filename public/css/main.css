@@ -3,7 +3,6 @@
     --light: #A3D8F4;
     --blue: #9AB3F5;
     --dark: #7579E7;
-    --cover: #5F3100;
     --paper: linear-gradient(90deg, #CEAF8C 0%, #D7C8B4 100%);
 }
 
@@ -20,6 +19,10 @@ nav {
     height: 100vh;
     width: 18vw;
     border-right: 2px solid black;
+}
+
+.loginbar {
+    display: flex;
 }
 
 aside {

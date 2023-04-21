@@ -4,7 +4,7 @@ const withAuth = require('../utils/auth');
 
 
 // Render the homepage
-router.get('/', withAuth, async (req, res) => {
+router.get('/', async (req, res) => {
     res.render('homepage');
   });
   
