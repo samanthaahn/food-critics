@@ -30,6 +30,11 @@ aside {
     border-left: 2px solid black;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 body {
     height: 100vh;
     display: flex;
