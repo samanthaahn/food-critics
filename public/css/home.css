@@ -1,0 +1,22 @@
+.dishlist {
+    display: flex;
+    flex-direction: column;
+}
+
+.dishtitle {
+    display: block;
+    padding-bottom: 2rem;
+}
+
+.salad-list, .appetizer-list, .bowl-list, .taco-list {
+    height: 30rem;
+    list-style: none;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+li {
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
