@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="/css/dish.css">
+    <link rel="stylesheet" type="text/css" href="/css/login.css">
     <script src="https://kit.fontawesome.com/3c42d1678b.js" crossorigin="anonymous"></script>
     <title>Flipbook</title>
 </head>
@@ -16,10 +17,17 @@
 <body>
     <!-- left nav bar -->
     <nav>
+        <div class="homebtn">
+            <a href="/">Home</a>
+        </div>
         {{#if loggedIn}}
-            <button id="logout" class="btn-no-style">Logout</button>
+
+        <button id="logout" class="btn-no-style logoutbtn">Logout</button>
+
         {{else}}
-        <a href="/login">Login</a>
+        <div class="loginbtn">
+            <a href="/login">Login</a>
+        </div>
         {{/if}}
     </nav>
 
@@ -27,11 +35,11 @@
     <aside>
 
     </aside>
-    
-{{!-- Render the sub layout --}}
+
+    {{!-- Render the sub layout --}}
     {{{body}}}
 
-    
+
 
     {{#if loggedIn}}
     <script src="/js/logout.js"></script>
