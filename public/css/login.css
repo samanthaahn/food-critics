@@ -77,6 +77,14 @@ button[type="submit"]:hover {
 
 }
 
-#logout {
-
+.logoutbtn {
+  display: block;
+  height: 3rem;
+  width: 7rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 2rem;
+  text-align: center;
+  background: linear-gradient(90deg, var(--darks) 0%, var(--lightests) 100%);
+  transform: translate(4rem, -9.25rem);
 }
