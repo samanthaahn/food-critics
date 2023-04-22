@@ -117,12 +117,12 @@ button:focus {
 }
 
 button:hover i {
-    color: var(--blue);
+    color: var(--blues);
 }
 
 i {
     font-size: 50px;
-    color: var(--dark);
+    color: var(--darks);
     
 }
 
