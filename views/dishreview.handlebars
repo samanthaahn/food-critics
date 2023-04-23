@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="/css/dishreview.css">
+<div id="dish-review-container">
+  <h2>Dish Review</h2>
+
+  <div class="form-box">
+    <h3>Dish Description</h3>
+    <form id="dish-description-form">
+      <label for="dish_name">Dish Name:</label>
+      <select name="dish_name" id="dish_name">
+        <option value="">Select a dish</option>
+      </select>
+    </form>
+  </div>
+
+  <div class="form-box">
+    <h3>Review</h3>
+    <form id="review-form">
+      <label for="stars">Rating:</label>
+      <select name="stars" id="stars">
+        <option value="1">1 Star</option>
+        <option value="2">2 Stars</option>
+        <option value="3">3 Stars</option>
+        <option value="4">4 Stars</option>
+        <option value="5">5 Stars</option>
+      </select>
+
+      <label for="review">Review:</label>
+      <textarea name="review" id="review" rows="4" placeholder="Enter your review"></textarea>
+
+      <button type="submit">Submit Review</button>
+    </form>
+  </div>
+</div>
+
+<script src="/js/dishreview.js"></script>

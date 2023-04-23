@@ -23,7 +23,7 @@ Dish.init(
             type: DataTypes.TEXT,
             allowNull: false
         },
-        type: {
+        dish_type: {
             type: DataTypes.STRING,
             allowNull: false,
         }

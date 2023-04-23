@@ -3,6 +3,9 @@ const express = require('express');
 const session = require('express-session');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers');
+const { Dish } = require('./models');
+const dishRoutes = require('./controllers/api/dishRoutes');
+
 
 //const helpers = require('./utils/helpers');
 
@@ -13,7 +16,10 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Set up Handlebars.js engine with custom helpers
-const hbs = exphbs.create({  });
+const hbs = exphbs.create({  partialsDir: path.join(__dirname,
+   'views/partials'), });
+
+
 
 const sess = {
   secret: 'Super secret secret',
@@ -23,7 +29,7 @@ const sess = {
     secure: false,
     sameSite: 'strict',
   },
-  resave: false,
+  resave: true,
   saveUninitialized: true,
   store: new SequelizeStore({
     db: sequelize
@@ -40,7 +46,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
+
+// Set the views directory path
+app.set('views', path.join(__dirname, 'views'));
+
 app.use(routes);
+app.use('/api', dishRoutes);
 
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
