@@ -18,15 +18,6 @@ router.get("/", async (req, res) => {
 
 const path = require('path');
 
-// Add this new route to serve the dish review page
-// router.get("/dish-review", async (req, res) => {
-//   try {
-//     res.sendFile(path.join(__dirname, '../../public/dishreview.html'));
-//   } catch (err) {
-//     res.status(500).json(err);
-//   }
-// });
-
    
 // Add this new route to serve the dish review page with dish names
 router.get("/dish-review", async (req, res) => {
@@ -59,7 +50,7 @@ router.get("/categories", async (req, res) => {
   }
 });
 
-//test-oj
+//test script
 router.get("/test", async (req, res) => {
   try {
     const dishData = await Dish.findAll();
@@ -137,9 +128,7 @@ router.get('/', async (req, res) => {
   }
 });
 
-
-
-// POST a new dish (withAuth middleware for authentication)
+// POST a new dish 
 router.post("/", async (req, res) => {
   console.log('=======================================');
   console.log(req.body);
