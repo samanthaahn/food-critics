@@ -24,7 +24,7 @@ Review.init(
     },
     comment: {
       type: DataTypes.TEXT,
-      allowNull: false,
+      allowNull: true,
       validate: {
         len: [10],
       },

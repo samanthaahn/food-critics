@@ -8,7 +8,7 @@ router.get('/', async (req, res) => {
   // salad category
   const saladData = await Dish.findAll({
     where: {
-      type: "salad"
+      dish_type: "salad"
     }
   })
   const salads = saladData.map(salad => salad.get({ plain: true }))
@@ -16,7 +16,7 @@ router.get('/', async (req, res) => {
   // appetizer category
   const appetizerData = await Dish.findAll({
     where: {
-      type: "appetizer"
+      dish_type: "appetizer"
     }
   })
   const appetizers = saladData.map(appetizer => appetizer.get({ plain: true }))
@@ -24,7 +24,7 @@ router.get('/', async (req, res) => {
   // bowl category
   const bowlData = await Dish.findAll({
     where: {
-      type: "bowl"
+      dish_type: "bowl"
     }
   })
   const bowls = saladData.map(bowl => bowl.get({ plain: true }))
@@ -32,7 +32,7 @@ router.get('/', async (req, res) => {
   // tacos & fajitas category
   const tacoData = await Dish.findAll({
     where: {
-      type: "tacos & fajitas"
+      dish_type: "tacos & fajitas"
     }
   })
   const tacos = tacoData.map(taco => taco.get({ plain: true }))
