@@ -44,7 +44,7 @@
   width: 100%;
   text-align: center;
   border: solid 2px black;
-  background-color: var(--blues);
+  background: linear-gradient(90deg, var(--lights) 0%, var(--lightests) 100%);
   padding-top: 1vh;
 }
 

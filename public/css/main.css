@@ -1,8 +1,8 @@
 :root {
-    --lightests: #B9FFFC;
-    --lights: #A3D8F4;
-    --blues: #9AB3F5;
-    --darks: #7579E7;
+    --lightests: #E6B325;
+    --lights: #BF9742;
+    --blues: #A47E3B;
+    --darks: #61481C;
     --browns: #5F3100;
     --paper: linear-gradient(90deg, #CEAF8C 0%, #D7C8B4 100%);
 }
@@ -43,7 +43,8 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Abril Fatface', cursive;
-    background: linear-gradient(0deg, var(--lightests) 0%, var(--blues) 100%);
+    background: var(--lights);
+    /* linear-gradient(0deg, var(--darks) 0%, var(--lights) 100%); */
 }
 
 /* Book */
