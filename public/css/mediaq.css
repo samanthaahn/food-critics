@@ -30,6 +30,11 @@
         transform: translate(0, -10vh);
     }
 
+    .dishpage {
+        padding-top: 25vh;
+        height: 132.5vh;
+    }
+
 }
 
 
@@ -52,5 +57,13 @@
 
     .reviewlink {
         transform: translate(0, 0);
+    }
+
+    .dish {
+        width: 50vw;
+    }
+
+    .reviews {
+        width: 50vw
     }
 }
