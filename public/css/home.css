@@ -23,3 +23,10 @@ li {
     padding-left: 1rem;
     padding-right: 2rem;
 }
+
+.h1 {
+    font-size: 3rem;
+    font-family: 'Abril Fatface', cursive;
+    display: block;
+    vertical-align: top;
+}
