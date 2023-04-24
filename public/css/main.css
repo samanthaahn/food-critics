@@ -3,6 +3,7 @@
     --lights: #A3D8F4;
     --blues: #9AB3F5;
     --darks: #7579E7;
+    --browns: #5F3100;
     --paper: linear-gradient(90deg, #CEAF8C 0%, #D7C8B4 100%);
 }
 
@@ -48,8 +49,8 @@ body {
 /* Book */
 .book {
     position: relative;
-    width: 30rem;
-    height: 700px;
+    width: 25vw;
+    height: 80vh;
     transition: transform 0.5s;
 }
 
@@ -65,7 +66,7 @@ body {
 
 .front,
 .back {
-    background: var(--paper);
+    background: var(--browns);
     position: absolute;
     width: 100%;
     height: 100%;
