@@ -24,3 +24,6 @@ li {
     padding-right: 2rem;
 }
 
+li a:hover {
+    color: white;
+}
