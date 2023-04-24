@@ -1,20 +1,22 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
 <div class="dishpage">
     <div class="dish">
-        <h1>{{dish_name}}</h1>
-        <div>{{ingredients}}</div>
-        <div>{{recipe}}</div>
+        <h1 class="dishname">{{dish_name}}</h1>
+        <div class="ingredients">Ingredients: {{ingredients}}</div>
+        <div class="recipe">Recipe: {{recipe}}</div>
     </div>
 
     <div class="reviews">
-        <h1>Reviews for {{dish_name}}</h1>
-        <div>
+        <h1 class="dishname">Reviews for<br> {{dish_name}}</h1>
+        <div class="reviewitems">
             {{#each reviews as |review|}}
-            <div>{{stars}}</div>
-            <div>{{comment}}</div>
-            <div>{{user.username}} on {{date}}</div>
-
+            <div class="individualreview">
+                <div class="stars">{{stars}} <i class="fa-sharp fa-solid fa-star fa-xs" style="color: #ffea00;"></i></div>
+                <div class="comments">{{comment}}</div>
+                <div class="userdate">{{user.username}} on {{date}}</div>
+            </div>
             {{/each}}
         </div>
     </div>
