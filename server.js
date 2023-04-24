@@ -4,6 +4,7 @@ const session = require('express-session');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers');
 const { Dish } = require('./models');
+const helpers = require('./utils/helpers');
 const dishRoutes = require('./controllers/api/dishRoutes');
 
 
@@ -15,9 +16,14 @@ const SequelizeStore = require('connect-session-sequelize')(session.Store);
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// Set up Handlebars.js engine with custom helpers
-const hbs = exphbs.create({  partialsDir: path.join(__dirname,
-   'views/partials'), });
+//Set up Handlebars.js engine with custom helpers
+const hbs = exphbs.create({ 
+  helpers,
+  extname: '.hbs',
+  partialsDir: path.join(__dirname, 'views', 'partials'),
+  layoutsDir: path.join(__dirname, 'views', 'layouts'),
+  defaultLayout: 'main'
+});
 
 
 
