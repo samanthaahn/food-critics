@@ -18,7 +18,39 @@
         z-index: 11;
     }
 
+    body {
+        height: 125vh;
+    }
+
     .book {
-        
+        width: 30vw;
+    }
+
+    .reviewlink {
+        transform: translate(0, -10vh);
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .book {
+        width: 30vw;
+    }
+
+    .booktitle {
+        width: 30vw;
+    }
+
+    button {
+        margin: 5px;
+    }
+
+    .logoutbtn {
+        transform: translate(10rem, -3.35rem);
+    }
+
+    .reviewlink {
+        transform: translate(0, 0);
     }
 }
