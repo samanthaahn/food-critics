@@ -24,9 +24,13 @@ li {
     padding-right: 2rem;
 }
 
-.front-content img {
+img {
     max-width: 100%;
     height: auto;
-    display: block;
+    display: block !important;
     margin: 0 auto;
-  }
+}
+
+li a:hover {
+    color: white;
+}
