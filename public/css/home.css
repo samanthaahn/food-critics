@@ -1,7 +1,27 @@
+.booktitle {
+    height: 3vh;
+    width: 10vw;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.about {
+    position: fixed;
+    height: 65vh;
+    width: 15vw;
+    border: solid 2px black;
+    margin-top: 5vh;
+    text-align: center;
+    background: var(--paper);
+}
+
 .dishlist {
     display: flex;
     flex-direction: column;
     font-family: 'Abril Fatface', cursive;
+    height: 65vh;
+    width: 20vw;
+    background: var(--paper);
 }
 
 .dishtitle {
@@ -11,7 +31,7 @@
 }
 
 .salad-list, .appetizer-list, .bowl-list, .taco-list {
-    height: 30rem;
+    height: 65vh;
     list-style: none;
     overflow: hidden;
     overflow-y: scroll;

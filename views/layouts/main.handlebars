@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="/css/login.css">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant:wght@300&display=swap"
         rel="stylesheet">
-    
+
     <script src="https://kit.fontawesome.com/3c42d1678b.js" crossorigin="anonymous"></script>
     <title>Flipbook</title>
 </head>
@@ -32,6 +32,7 @@
             <a href="/login">Login</a>
         </div>
         {{/if}}
+
     </nav>
 
     <!-- right input bar -->
@@ -39,7 +40,7 @@
 
         {{#if loggedIn}}
         {{> dishinput}}
-        <a href="/review">Dish Review</a>
+        <h1 class="reviewlink"><a href="/review">Review a Dish!</a></h1>
         {{/if}}
 
     </aside>

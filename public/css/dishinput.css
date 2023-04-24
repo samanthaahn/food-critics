@@ -38,3 +38,16 @@
     background-color: #45a049;
     font-family: 'Abril Fatface', cursive;
   }
+
+.reviewlink {
+  height: 5vh;
+  width: 18vw;
+  text-align: center;
+  border: solid 2px black;
+  background-color: var(--blues);
+  padding-top: 1vh;
+}
+
+.reviewlink a:hover {
+  color: white;
+}
