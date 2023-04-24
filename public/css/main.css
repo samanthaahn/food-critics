@@ -41,7 +41,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: sans-serif;
+    font-family: 'Abril Fatface', cursive;
     background: linear-gradient(0deg, var(--lightests) 0%, var(--blues) 100%);
 }
 

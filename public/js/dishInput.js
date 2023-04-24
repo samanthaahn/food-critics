@@ -21,12 +21,8 @@ fetch("/api/dish/dish_type")
 // When the form is submitted, create a new dish
 const form = document.querySelector("#dish-form");
 form.addEventListener("submit", async (event) => {
-  event.preventDefault();
+  //event.preventDefault();
 
-  const dishName = dishNameInput.value;
-  const ingredients = ingredientsInput.value;
-  const recipe = recipeInput.value;
-  const dishType = dishTypeSelect.value;
 const dish = {} 
 dish['dish_name'] = dishNameInput.value
 dish.ingredients = ingredientsInput.value

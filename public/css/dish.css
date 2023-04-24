@@ -8,9 +8,11 @@
     border: 1px solid black;
     padding: 25px;
     border-left: 20px;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .dishpage {
+font-family: 'Abril Fatface', cursive;
     display: flex;
     flex-direction: column;
     width: 50vw;
@@ -20,17 +22,19 @@
 
 h1 {
     align-items: center;
-    font-family: sans-serif;
+    font-family: 'Abril Fatface', cursive;
     font-size: 20px;
 }
 
 h2 {
     align-items: center;
-    font-family: sans-serif;
+    font-family: 'Abril Fatface', cursive;
     font-size: 16px;
 }
 
 .dish {
+font-family: 'Abril Fatface', cursive;
+
     display: flex;
     border: 2px solid black;
     border-radius: 3rem;
@@ -41,6 +45,7 @@ h2 {
     align-items: center;
     margin-bottom: 1vh;
 }
+
 
 .dishname {
     display: flex;
@@ -66,6 +71,9 @@ h2 {
 .reviews {
     display: flex;
     border: 2px solid black;
+
+    font-family: 'Abril Fatface', cursive;
+
     border-radius: 3rem;
     background: var(--paper);
     height: 45vh;
@@ -74,12 +82,14 @@ h2 {
     align-items: center;
 }
 
+
 .reviewitems {
     height: 35vh;
     width: 35vw;
     overflow: hidden;
     overflow-y: scroll;
 }
+
 
 .individualreview {
     border-bottom: solid 2px black;
@@ -118,3 +128,4 @@ h2 {
     font-weight: 900;
     color: #f8ce0b;
 }
+
