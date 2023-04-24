@@ -1,115 +1,114 @@
 <script src="/js/main.js" defer></script>
 <script src="/js/source.js" defer></script>
 
+  <!-- Previous Button -->
+  <button id="prev-btn">
+    <i class="fas fa-arrow-circle-left"></i>
+  </button>
 
-<!-- Previous Button -->
-<button id="prev-btn">
-  <i class="fas fa-arrow-circle-left"></i>
-</button>
+  <!-- Book -->
+  <div id="book" class="book">
+    <!-- Paper 1 -->
+    <div id="p1" class="paper">
+      <div class="front">
+        <div id="f1" class="front-content">
 
-<!-- Book -->
-<div id="book" class="book">
-  <!-- Paper 1 -->
-  <div id="p1" class="paper">
-    <div class="front">
-      <div id="f1" class="front-content">
+          <h1 class="booktitle">The Third Michelin</h1>
+          <div class="about">
+            <h1>About</h1>
+            <p>
+              Welcome to The Third Michelin!
+              As a designated cookbook for home-style cooking, we hope that you, the user, will continue to use this
+              as your
+              personal cooking diary!
+            </p>
+            <p>
+              Feel free to flip through the book! You will find that there are four categories, each with their own
+              list of
+              dishes. After logging in, input boxes will appear on the right-hand side (bottom if using mobile device) for you to enter in your own
+              dishes! Refresh the page to see your dish on the menu!
+            </p>
+            <p>
+              You can also enter in your own review of a dish when you click on Dish Review!
+            </p>
+            <P>
+              Please flip through the whole book before going back to the first pages, as the cover will be replaced
+              by the
+              page you were on previously. Otherwise, refresh the page to see the cover.
+            </P>
+          </div>
 
-        <h1 class="booktitle">The Third Michelin</h1>
-        <div class="about">
-          <h1>About</h1>
-          <p>
-            Welcome to The Third Michelin!
-            As a designated cookbook for home-style cooking, we hope that you, the user, will continue to use this
-            as your
-            personal cooking diary!
-          </p>
-          <p>
-            Feel free to flip through the book! You will find that there are four categories, each with their own
-            list of
-            dishes. After logging in, input boxes will appear on the right-hand side for you to enter in your own
-            dishes! Refresh the page to see your dish on the menu!
-          </p>
-          <p>
-            You can also enter in your own review of a dish when you click on Dish Review!
-          </p>
-          <P>
-            Please flip through the whole book before going back to the first pages, as the cover will be replaced
-            by the
-            page you were on previously. Otherwise, refresh the page to see the cover.
-          </P>
+        </div>
+      </div>
+      <div class="back">
+        <div id="b1" class="back-content">
+          <div class="dishlist">
+            <h1 class="dishtitle">Salads</h1>
+            <ul class="salad-list">
+              {{#each salads as |salad|}}
+              <li><a href="/dish/{{salad.id}}">{{salad.dish_name}}</a></li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Paper 2 -->
+    <div id="p2" class="paper">
+      <div class="front">
+        <div id="f2" class="front-content">
+          <div class="dishlist">
+            <h1 class="dishtitle">Appetizers</h1>
+            <ul class="appetizer-list">
+              {{#each appetizers as |appetizer|}}
+              <li><a href="/dish/{{appetizer.id}}">{{appetizer.dish_name}}</a></li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="back">
+        <div id="b2" class="back-content">
+          <div class="dishlist">
+            <h1 class="dishtitle">Bowls</h1>
+            <ul class="bowl-list">
+              {{#each bowls as |bowl|}}
+              <li><a href="/dish/{{bowl.id}}">{{bowl.dish_name}}</a></li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Paper 3 -->
+    <div id="p3" class="paper">
+      <div class="front">
+        <div id="f3" class="front-content">
+          <div class="dishlist">
+            <h1 class="dishtitle">Tacos & Fajitas</h1>
+            <ul class="taco-list">
+              {{#each tacos as |taco|}}
+              <li><a href="/dish/{{taco.id}}">{{taco.dish_name}}</a></li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="back">
+        <div id="b3" class="back-content">
+          <div class="backcover">
+            <h1 class="backtitle">Please come back anytime!</h1>
+            <img src="./images/3.png" alt="3-star michellin dinner">
+          </div>
+
         </div>
 
       </div>
     </div>
-    <div class="back">
-      <div id="b1" class="back-content">
-        <div class="dishlist">
-          <h1 class="dishtitle">Salads</h1>
-          <ul class="salad-list">
-            {{#each salads as |salad|}}
-            <li><a href="/dish/{{salad.id}}">{{salad.dish_name}}</a></li>
-            {{/each}}
-          </ul>
-        </div>
-      </div>
-    </div>
+
   </div>
-  <!-- Paper 2 -->
-  <div id="p2" class="paper">
-    <div class="front">
-      <div id="f2" class="front-content">
-        <div class="dishlist">
-          <h1 class="dishtitle">Appetizers</h1>
-          <ul class="appetizer-list">
-            {{#each appetizers as |appetizer|}}
-            <li><a href="/dish/{{appetizer.id}}">{{appetizer.dish_name}}</a></li>
-            {{/each}}
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="back">
-      <div id="b2" class="back-content">
-        <div class="dishlist">
-          <h1 class="dishtitle">Bowls</h1>
-          <ul class="bowl-list">
-            {{#each bowls as |bowl|}}
-            <li><a href="/dish/{{bowl.id}}">{{bowl.dish_name}}</a></li>
-            {{/each}}
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Paper 3 -->
-  <div id="p3" class="paper">
-    <div class="front">
-      <div id="f3" class="front-content">
-        <div class="dishlist">
-          <h1 class="dishtitle">Tacos & Fajitas</h1>
-          <ul class="taco-list">
-            {{#each tacos as |taco|}}
-            <li><a href="/dish/{{taco.id}}">{{taco.dish_name}}</a></li>
-            {{/each}}
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="back">
-      <div id="b3" class="back-content">
-        <div class="backcover">
-          <h1 class="backtitle">Please come back anytime!</h1>
-          <img src="./images/3.png" alt="3-star michellin dinner">
-        </div>
 
-      </div>
-
-    </div>
-  </div>
-
-</div>
-
-<!-- Next Button -->
-<button id="next-btn">
-  <i class="fas fa-arrow-circle-right"></i>
-</button>
+  <!-- Next Button -->
+  <button id="next-btn">
+    <i class="fas fa-arrow-circle-right"></i>
+  </button>

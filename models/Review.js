@@ -18,6 +18,7 @@ Review.init(
     date: {
       type: DataTypes.DATEONLY,
       allowNull: false,
+      default: DataTypes.NOW,
       validate: {
         isDate: true,
       },
