@@ -19,15 +19,21 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Handle form submission
   const reviewForm = document.getElementById('review-form');
   reviewForm.addEventListener('submit', async (event) => {
-    event.preventDefault();
-
-    const dishId = document.getElementById('dish_name').value;
-    const stars = document.getElementById('stars').value;
-    const comment = document.getElementById('review').value;
+    
 
     try {
+      console.log("fe Review")
+      event.preventDefault();
+  
+      const dishId = document.getElementById('dish_name').value;
+      const stars = document.getElementById('stars').value;
+      const comment = document.getElementById('review').value;
+      const userId = document.getElementById('dish-review-container').getAttribute('data-user-id');
+      console.log('User ID:', userId);
+  
+
       // Submit the review data to the server
-      const response = await fetch('/review', {
+      const response = await fetch('/api/review', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -37,6 +43,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           stars,
           date: new Date(),
           comment,
+          // user_id: userId
         }),
       });
 
