@@ -25,8 +25,10 @@
 
     <!-- right input bar -->
     <aside>
+        {{#if loggedIn}}
      {{> dishinput}}
       <a href="/review">Dish Review</a>
+       {{/if}}
     </aside>
     
 {{!-- Render the sub layout --}}
