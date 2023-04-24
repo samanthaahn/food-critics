@@ -51,7 +51,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 //app.set('views', path.join(__dirname, 'views'));
 
 app.use(routes);
-app.use('/api', dishRoutes);
+// app.use('/api', dishRoutes);
 
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));

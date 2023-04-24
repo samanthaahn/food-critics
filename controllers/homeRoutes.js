@@ -74,4 +74,16 @@ router.get('/dish/:id', async (req, res) => {
   }
 })
 
+
+router.get('/review', async (req, res) => {
+  try {
+    const reviews = await Review.findAll();
+    res.render('dishreview', reviews)
+  //   res.status(200).json(reviews);
+  } catch (err) {
+    console.error('Error in GET /:', err);
+    res.status(500).json({ message: 'Internal Server Error', error: err });
+  }
+});
+
 module.exports = router;
