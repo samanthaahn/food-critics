@@ -15,27 +15,7 @@
     <div>{{recipe}}</div>
 </div>
 
-<div class="reviews">
-    <h1>Reviews for {{dish_name}}</h1>
-    <div>
-    {{#each reivews as |review|}}  
-        <div class="stars-inner"></div>
-        <div class="stars-inner"></div>
-        <div>{{comment}}</div>
-        <div>{{user.username}} on {{date}}</div>
-        
-    {{/each}}
-    </div>
-</div>
 
-const starsTotal = 5; 
-
-//run get 
-document.addEventLIstener('DOMContentLoaded', getRatings)
-// get ratings
-function getRatings() {
-    console.log('ran');
-}
     
 <aside class="">
     <h1>{{Title of Review}}</h1>
