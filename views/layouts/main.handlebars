@@ -33,8 +33,12 @@
 
     <!-- right input bar -->
     <aside>
-        {{> dishinput}}
-        <a href="/review">Dish Review</a>
+
+        {{#if loggedIn}}
+     {{> dishinput}}
+      <a href="/review">Dish Review</a>
+       {{/if}}
+
     </aside>
 
     {{!-- Render the sub layout --}}
