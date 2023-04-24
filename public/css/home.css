@@ -1,11 +1,13 @@
 .dishlist {
     display: flex;
     flex-direction: column;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .dishtitle {
     display: block;
     padding-bottom: 2rem;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .salad-list, .appetizer-list, .bowl-list, .taco-list {
@@ -13,6 +15,7 @@
     list-style: none;
     overflow: hidden;
     overflow-y: scroll;
+    font-family: 'Abril Fatface', cursive;
 }
 
 li {
