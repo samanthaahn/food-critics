@@ -10,13 +10,19 @@
     border-left: 20px;
 }
 
+.dishpage {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 95vh;
+    align-items: center;
+}
+
 h1 {
     align-items: center;
     font-family: sans-serif;
     font-size: 20px;
-    border-left: 20px;
-    
-}    
+}
 
 h2 {
     align-items: center;
@@ -25,22 +31,64 @@ h2 {
 }
 
 .dish {
-display: flex;
-border: 2px solid black;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 3rem;
+    background: var(--paper);
+    height: 45vh;
+    width: 40vw;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1vh;
+}
 
+.dishname {
+    display: flex;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+.ingredients {
+    height: 20vh;
+    width: 35vw;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-bottom: solid 2px black;
+}
+
+.recipe {
+    height: 20vh;
+    width: 35vw;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 .reviews {
     display: flex;
     border: 2px solid black;
-
+    border-radius: 3rem;
+    background: var(--paper);
+    height: 45vh;
+    width: 40vw;
+    flex-direction: column;
+    align-items: center;
 }
 
-.dishpage {
-    flex-direction: column;
-    width: 50vw;
-    height: 50vh;
+.reviewitems {
+    height: 35vh;
+    width: 35vw;
+    overflow: hidden;
+    overflow-y: scroll;
+}
 
+.individualreview {
+    border-bottom: solid 2px black;
+    height: 10vh;
+    width: 30vw;
+}
+
+.userdate {
+    padding-top: 1rem;
 }
 
 .stars-outer {
@@ -63,6 +111,7 @@ border: 2px solid black;
     font-weight: 900;
     color: #ccc;
 }
+
 .stars-inner::before {
     content: "\f005\f005\f005\f005\f005";
     font-family: 'Font Aewsome 5 Free';
