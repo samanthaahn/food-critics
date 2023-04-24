@@ -33,11 +33,10 @@ h2 {
 }
 
 .dish {
-font-family: 'Abril Fatface', cursive;
-
+    font-family: 'Abril Fatface', cursive;
     display: flex;
     border: 2px solid black;
-    border-radius: 3rem;
+    border-radius: 2rem;
     background: var(--paper);
     height: 45vh;
     width: 40vw;
