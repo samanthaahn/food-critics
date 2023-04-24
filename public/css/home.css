@@ -44,11 +44,24 @@ li {
     padding-right: 2rem;
 }
 
+.backcover {
+    height: 65vh;
+    width: 20vw;
+    text-align: center;
+}
+
+.backtitle {
+    width: 15vw;
+    border-bottom: solid 2px black;
+    margin-left: 3vw;
+}
+
 img {   
-    max-width: 100%;
-    height: auto;
+    width: 20vw;
     display: block !important;
-    margin: 0 auto;
+    margin-top: 4vh;
+    padding-left: 1vw;
+    border-radius: 3rem;
 }
 
 li a:hover {
