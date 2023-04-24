@@ -13,6 +13,8 @@
     margin-top: 5vh;
     text-align: center;
     background: var(--paper);
+    overflow: hidden;
+    overflow-y: auto;
 }
 
 .dishlist {
@@ -34,7 +36,7 @@
     height: 65vh;
     list-style: none;
     overflow: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
     font-family: 'Abril Fatface', cursive;
 }
 
